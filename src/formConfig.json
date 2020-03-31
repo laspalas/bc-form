@@ -1,0 +1,59 @@
+[
+  {
+    "key": "textfield_key",
+    "type": "text",
+    "label": "Textualno polje",
+    "required": true
+  },
+  {
+    "type": "checkbox_single",
+    "key": "checkboxsingle_key",
+    "label": "Checkbox single"
+  },
+  {
+    "type": "checkbox_multiple",
+    "key": "checkboxfield_key",
+    "label": "Checkbox multiple",
+    "options": [
+      {
+        "label": "Option 1",
+        "value": "option_1"
+      },
+      {
+        "label": "Option 2",
+        "value": "option_2"
+      }
+    ]
+  },
+  {
+    "key": "radiofield_key",
+    "type": "radio",
+    "label": "Radio polje",
+    "required": true,
+    "options": [
+      {
+        "label": "Option 1",
+        "value": "option_1"
+      },
+      {
+        "label": "Option 2",
+        "value": "option_2"
+      }
+    ]
+  },
+  {
+    "key": "selectfield_key",
+    "label": "Select polje",
+    "type": "select",
+    "options": [
+      {
+        "label": "Option 3",
+        "value": "option_3"
+      },
+      {
+        "label": "Option 4",
+        "value": "option_4"
+      }
+    ]
+  }
+]
